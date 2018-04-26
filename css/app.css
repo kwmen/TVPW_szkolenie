@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #eeeeee;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.headline {
+    font-weight: lighter;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    color: #222;
+}
+
+/**
+player
+**/
+
+.sync-player {
+    position: relative;
+}
+
+.sync-player .bottom-panel {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   
+   height: 100px;
+   padding-top: 100px;
+   box-shadow: inset 0 -130px 180px -100px #000;
+}
+
+.sync-player .right-panel{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 100px;
+  width: 25%;
+
+  /*background: red;*/
+}
+
+.sync-player .right-panel .message{
+  padding: 5px;
+  background: #abc;
+}
+
+.sync-player .right-panel .author {
+    font-weight: bold;
+}
+
+.no-display {
+  display: none;
+}
+/**
+controls 
+**/
+.sync-player .controls {
+    margin-left: 20px;
+}
+
+.sync-player .player-button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
